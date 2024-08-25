@@ -233,8 +233,60 @@
 // }
 
 
+// Array
 
-console.log(":cjsdhgjmsd")
+// let ans = ['I',"am","Jitu","Rajak"];
+
+// console.log(ans.join('-'))
 
 
 
+// ans.push("hello")
+
+// console.log(ans)
+
+// ans.pop();
+
+// console.log(ans)
+
+
+// let ans = [[1,2],[2,[3,4]]];
+
+
+// ans.splice(1,0,"good","hjgjhn")
+
+// console.log(ans.flat(2))
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// // document.getElementById("demo1").innerHTML = fruits;
+
+// fruits.splice(2, 0, "Lemon", "Kiwi");
+
+// console.log(fruits)
+
+// let ans1 = ["I","am","Jitu","Rajak"]
+
+// console.log(ans1.reverse())
+
+
+// let ans = "hello";
+
+// let ans1 = ans.split('').reverse().join('');
+
+// console.log(ans1);
+
+
+/*
+
+using javascript put green in 1 to 4 and 5 <= yellow and leftover with red
+
+1. Intrpduction of html,css Javascript
+2. DOM Introduction
+3. Javascript Intorduction
+4. String, Loop and Array
+5. Function
+6. Object
+7. ReactJs
+8. Nodejs & MongoDB
+
+*/
