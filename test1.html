@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="heading" id="hello">Hello World</h1>
+    <p class="para" id="hello1">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit
+      eos voluptates recusandae ut ipsum pariatur id accusantium facilis
+      aspernatur quisquam quis unde, minima impedit velit temporibus dolores,
+      itaque doloribus quasi culpa sequi necessitatibus perspiciatis porro?
+      Repellat, quis maxime laudantium cumque blanditiis perspiciatis dolor
+      possimus eius quos. Quos voluptatem cupiditate repellat, cum rem nesciunt
+      blanditiis molestiae atque quidem ducimus libero ipsa pariatur laudantium
+      totam mollitia tempore exercitationem dolore vitae aliquid, est
+      perspiciatis laboriosam. Consequatur similique recusandae quod, odit error
+      quasi itaque? Maxime accusamus at quisquam iste libero laudantium eligendi
+      perspiciatis quibusdam sequi amet placeat laborum, neque repellendus.
+      Tempora ipsum pariatur doloribus.
+    </p>
+    <button>
+         ejdsjk
+    </button>
+  </body>
+
+  <script>
+    document.addEventListener('click',helper);
+
+    // "heloo {jiyu}"
+
+    function helper(event){
+        // "button","Button","BuTTON"
+        if(event.target.localName.toLowerCase() === 'button'){
+            let print = `TagName => ${event.target.localName}
+                        ClassName => ${event.target.className}
+                        Id => ${event.target.Id}`
+            alert(print);
+        }
+    }
+  </script>
+
+
+</html>
