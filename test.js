@@ -290,3 +290,64 @@ using javascript put green in 1 to 4 and 5 <= yellow and leftover with red
 8. Nodejs & MongoDB
 
 */
+
+
+// Function
+
+// function add(num1,num2){
+//     return num1 + num2;
+// }
+
+// const add1 = function(num1,num2){
+//     return num1+num2;
+// }
+
+
+// const add1 = (num1,num2) => {
+//     return num1+num2;
+// }
+
+
+// console.log(add1(2,3))
+
+
+// object is collection key value pair
+
+// let person = {
+//     firstName : "Jitu",
+//     lastName : "Rajak",
+//     getFullName : function(){
+//         return `${this.firstName} ${this.lastName}`;
+//     }
+// }
+
+// class Person{
+// 	constructor(firstName,lastName){
+//     	this.firstName=firstName;
+//       	this.lastName=lastName;
+//     }
+//   	getFullName(){
+//     	return `${this.firstName} ${this.lastName}`;
+//     }
+// }
+
+
+// let person1 = new Person("Jitu","Rajak")
+// let person2 = new Person("siya","kumari")
+// let person3 = new Person("sanjeev","Kumar");
+
+// console.log(person2.getFullName())
+
+
+
+// console.log(person.getFullName());
+
+
+// let ans="I am Jitu Rajak"
+
+// ans.split(' ');
+
+
+//
+
+
